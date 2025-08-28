@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_komodo.mk
+    $(LOCAL_DIR)/twrp_tokay.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_komodo-eng
+    twrp_tokay-eng

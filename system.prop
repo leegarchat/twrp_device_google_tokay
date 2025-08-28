@@ -5,7 +5,7 @@ ro.charger.enable_suspend=1
 ro.crypto.allow_encrypt_override=true
 vendor.gatekeeper.disable_spu=true
 
-ro.display.series=Pixel 9 Pro XL
+ro.display.series=Pixel 9
 ro.board.platform=zumapro
 ro.adb.secure=0
 ro.crypto.volume.options=

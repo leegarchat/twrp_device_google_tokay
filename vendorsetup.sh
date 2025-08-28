@@ -109,13 +109,13 @@ export ALLOW_MISSING_DEPENDENCIES=true
 
 
 
-export FOX_USE_SPECIFIC_MAGISK_ZIP="$fox_dir/device/google/komodo/recovery/root/system/bin/Magisk-29.zip"
+export FOX_USE_SPECIFIC_MAGISK_ZIP="$fox_dir/device/google/tokay/recovery/root/system/bin/Magisk-29.zip"
 
 
 export FOX_VERSION=""
 # Нужно задать пустым в свеэих исходниках FOX
 
-source $fox_dir/device/google/komodo/ofox_vars.sh
+source $fox_dir/device/google/tokay/ofox_vars.sh
 s=""
 for f in $(env | grep -E '^(OF_|FOX_)') ; do 
     if [ -z "$s" ]; then

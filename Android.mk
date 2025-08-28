@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),komodo)
+ifeq ($(TARGET_DEVICE),tokay)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

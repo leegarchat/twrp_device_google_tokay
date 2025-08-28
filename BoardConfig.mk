@@ -8,7 +8,7 @@
 
 
 
-DEVICE_PATH := device/google/komodo
+DEVICE_PATH := device/google/tokay
 
 
 # Флаги сборочной системы (BUILD_BROKEN_, ALLOW_)
